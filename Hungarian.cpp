@@ -105,7 +105,6 @@ void augment()
 
 		q = queue<int>();	//clear
 
-		//there is absolutly exist free vertex after updating labels.
 		//step 3
 		for (y = 0; y < n; ++y)
 			if (!T[y] && slack[y] == 0) {	//slack[y] == 0 is new E_l
